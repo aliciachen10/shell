@@ -1,5 +1,5 @@
 import { Session } from "@supabase/supabase-js"
-import create from "zustand"
+import { create } from "zustand"
 
 export type Store = {
   session:Session |null;
